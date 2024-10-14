@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: fantasy;
+    background-color: whitesmoke;
+}
+#header {
+    margin: 2ch 20% 0 20%;
+    text-align: center;
+    border: 3px black solid;
+    background-color: white;
+}
+#main_box {
+    margin-top: 10vh;    
+    display: flex;
+    justify-content: center;
+}
+#maininnerDiv {
+    width: 60%;
+}
+.vokabelDiv {
+    width: 94%;
+    margin-left: 2ch;
+    margin-top: 2vh;
+    height: 90px;
+    border: 4px black solid;
+    border-radius: 2ch;
+    background-color: rgb(255, 255, 255);
+}    
+.vokabelinnerDiv {
+    margin: 1ch;
+    width: min-content;
+    border-bottom: 2px black solid;
+}
+#submitDiv {
+    display: flex;
+    justify-content: center;
+}
+#main_form_button {
+    margin-top: 2vh;
+    width: 220px;
+    height: 50px;
+    border: 3px black solid;
+    font-size: 2ch;
+    font-family: fantasy;
+    color: white;
+    background-color: blue;
+}
+#main_form_button:hover {
+    background-color: darkblue;
+}
+#redirect_button {
+    margin-top: 2vh;
+    width: 220px;
+    height: 50px;
+    border: 3px black solid;
+    font-size: 2ch;
+    font-family: fantasy;
+    color: white;
+    background-color: blue;
+}
+#redirect_button:hover {
+    background-color: darkblue;
+}
+.antwort {
+    width: 50%;
+    margin-left: 2ch;
+    font-size: 2ch;
+    border: 3px black solid;
+    border-radius: 1ch;
+    text-align: center;
+}

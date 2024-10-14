@@ -1,0 +1,203 @@
+body{
+    background-color: whitesmoke;
+    margin-top: 0;
+    font-family: fantasy;
+}
+#head{
+    background-color: white;
+    border: 1px black solid;
+    border-end-end-radius: 1ch;
+    border-bottom-left-radius: 1ch;
+    height: 100px;
+}
+#ueberschrift {
+    margin-top: 2ch;
+    text-align: center;
+    font-family: fantasy;    
+}
+#top {
+    margin-top:2ch;
+    display: flex;
+    justify-content: space-between; 
+}
+#nutzer {  
+    width: 75%;
+    border: 1px black solid;
+    border-radius: 1ch;    
+    background-color: white;
+}
+#nutzer_text {
+    margin-left: 1ch;
+}
+#logout {    
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 1ch;    
+    background-color: white;
+}
+#sprachenliste {
+    border: 2px black solid;
+    font-size: 2ch;
+    border-radius: 0.5ch;
+    margin-top: 2vh;
+    width: 250px;
+    height: 30px;
+}
+#content {
+    display: flex;
+    justify-content: space-between;
+}
+#content_left {
+    width: 75%;
+    margin-top: 2ch;
+    border: 1px black solid;
+    border-radius: 1ch;    
+    background-color: white;
+}
+#content_auswahl {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4ch;
+    margin-right: 4ch;
+}
+.uebung {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 20ch;
+    height: 13vh;
+}
+#content_right {
+    width: 22%;
+    margin-top: 2ch;
+    border: 1px black solid;
+    border-radius: 1ch;    
+    background-color: white;    
+}
+#stats {
+    border: 2px black solid;
+    border-collapse: collapse;
+    padding:1px;
+    width: 100%;
+}
+#stats_div { 
+    height: 200px;
+    margin: 0 2.5% 2.5% 2.5%; 
+    overflow: auto;
+}
+#stats_name {
+    margin: 0;
+    text-align: left;
+    border: 1px black solid;
+}
+
+#stats_punkte {
+    margin: 0;
+    text-align: left;
+    border: 1px black solid;
+}
+
+#stats_zeit {
+    margin: 0;
+    text-align: left;
+    border: 1px black solid;
+}
+#content_bottom {
+    width: 100%;
+    margin: 2vh 0 2vh 0;
+    border: 1px black solid;
+    border-radius: 1ch; 
+    background-color: white;
+}
+.content_div {
+    display: flex;
+    font-size: 3ch;
+    padding: 1ch;
+    border-bottom: 1px black solid;
+}
+.vokabel {
+    border-bottom: 2px black solid;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+.saetzeladen {
+    margin-top: 4ch;
+    width: 100%;
+    padding-left: 1ch;
+    margin-left: 3ch;
+}
+.satz {
+    height: 30px;
+    border: 1px black solid;
+    font-size: 1.5ch;
+    border-radius: 0.5ch;
+    margin-bottom: 1ch;
+    padding-left: 0.5ch;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.buttondiv {
+    margin: 0;
+}
+.deletebutton {
+    width: 100px;
+    height: 25px;
+    margin-right: 1ch;
+    background-color: red;
+    border: 2px black solid;
+    border-radius: 2ch;
+    
+}
+.editbutton {
+    width: 150px;
+    height: 25px;
+    margin-right: 4ch;
+    background-color:green;
+    border: 2px black solid;
+    border-radius: 2ch;
+}
+.editbutton:hover {
+    background-color: darkgreen;
+}
+.deletebutton:hover {
+    background-color: darkred;
+}
+.Saetze_laden {
+    border-radius: 1ch;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+}
+#vokabel_button {
+    margin: 2vh 5% 1vh 5%;
+    width: 90%;
+    height: 120px;
+    font-size: 4ch;
+    font-family: fantasy;
+    background-color: green;
+    border: 2px lightgreen solid;
+    border-radius: 1ch;
+}
+#vokabel_button:hover {
+    background-color: darkgreen;
+    border: 5px darkgreen solid;
+}
+#add_button {
+    margin: 2vh 5% 1vh 5%;
+    width: 90%;
+    height: 120px;
+    font-size: 4ch;
+    font-family: fantasy;
+    background-color: lightblue;
+    border: 2px cyan;
+    border-radius: 1ch;
+}
+#add_button:hover {
+    background-color:lightcyan;
+    border: 5px lightblue solid;
+}
+

@@ -1,0 +1,76 @@
+Tag 1: Projektplanung, Setup und Beginn der Dokumentation (8 Stunden)
+
+    Anforderungen spezifizieren und Dokumentation planen (1 Stunde)
+        Definierung der Funktionen des Programms.
+        Planen der zu erstellenden Diagramme (PSD, ERD, Use Case).
+
+    Projektsetup (2 Stunden)
+        Erstellen der Verzeichnisstruktur.
+        Installieren und konfigurierung von XAMPP.
+        Initialisierung von Git für Versionskontrolle (falls gewünscht).
+
+    Datenbankdesign (2 Stunden)
+        Erstellen des ERD (Entitäts-Beziehungs-Diagramm) zur Darstellung der Datenbankstruktur.
+        Entwicklung der MySQL-Datenbanken und Tabellen basierend auf dem ERD.
+        Implementierung der Datehhnbank in MySQL.
+
+    Dokumentation: ERD erstellen (3 Stunden)
+        ERD zu erstellen.
+        Dokumentiere die Beziehungen zwischen den Tabellen.
+        Speicherung des ERD und integration in die Projektdokumentation.
+
+Tag 2: Benutzeroberfläche, Grundfunktionalität und PSD (8 Stunden)
+
+    UI-Design: Grundlagen (2 Stunden)
+        Erstellung der HTML-Seiten für die Benutzeroberfläche.
+        Grundlegendes CSS-Styling hinzufügen.
+
+    Vokabeln hinzufügen (3 Stunden)
+        Implementierung der Logik für das Hinzufügen von Vokabeln.
+        Testen des Hinzufügen von Vokabeln in die Datenbank.
+
+    Dokumentation: Projektstrukturdiagramm (PSD) (3 Stunden)
+        Erstellung des Projektstrukturdiagramm (PSD), das die gesamte Architektur des Projekts darstellt.
+        Dokumentierung der Struktur (Frontend, Backend, Datenbank).
+        Integrierung des PSD in die Projektdokumentation.
+
+Tag 3: Implementierung der Übersetzungsmodi und Use-Case-Diagramm (8 Stunden)
+
+    Modus 1: Gesamten Satz übersetzen (4 Stunden)
+        Implementieren der Logik für den Modus, bei dem der Nutzer den gesamten Satz übersetzt.
+        Testen der Funktionalität.
+
+    Modus 2: Vokabel im Satz übersetzen (4 Stunden)
+        Implementieren der Logik für den Modus, bei dem der Nutzer das Vokabel übersetzt.
+        Testen der Funktionalität.
+
+    Dokumentation: Use-Case-Diagramm (2 Stunden)
+        Erstellen des Use-Case-Diagramm, das die verschiedenen Anwendungsfälle des Programms darstellt.
+        Integrierung des Use-Case-Diagramm in die Projektdokumentation.
+
+Tag 4: Erweiterte Funktionen, Fehlerbehandlung und Dokumentationsüberarbeitung (8 Stunden)
+
+    Fehlerbehandlung und Validierung (4 Stunden)
+        Implementieren der Validierung und Fehlerbehandlungen der Benutzereingaben.
+        Testen der Stabilität und Benutzerfreundlichkeit.
+
+    Dokumentation: Überarbeitung und Feinschliff (4 Stunden)
+        Überarbeiten des ERD, PSD und Use-Case-Diagramm.
+        Einfügen der Diagramme in ein Dokument und erstellen einer Einführung und Zusammenfassung.
+
+Tag 5: Integration und Tests (8 Stunden)
+
+    Integration der Übersetzungsmodi (4 Stunden)
+        Integrieren aller Funktionen in eine einheitliche Benutzeroberfläche.
+        Sicherstellen, dass alle Modi korrekt funktionieren.
+
+    Testen des gesamten Systems (4 Stunden)
+        Durchführung umfangreicher Tests, um sicherzustellen, dass alles wie geplant funktioniert.
+        Identifizierung und beheben eventueller Fehler.
+
+Tag 6: Abschluss der Dokumentation (4 Stunden)
+
+    Abschluss der Projektdokumentation (4 Stunden)
+        Überprüfen der gesamten Dokumentation.
+        Ergänzung aller noch fehlenden Informationen.
+        Hinzufügen von Screenshots und Beispielausgaben.
